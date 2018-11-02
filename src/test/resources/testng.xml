@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1" >
+    <parameter name="base-url"  value="https://www.expedia.com/"/>
+    <test name="ExpediaFlightTest">
+        <classes>
+            <class name="flights.TestFlights"/>
+        </classes>
+    </test>
+</suite>
